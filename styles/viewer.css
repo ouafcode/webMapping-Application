@@ -1,0 +1,120 @@
+.nav-item a:hover {
+  background-color: rgb(107, 168, 67);
+  color: white !important;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+footer {
+  padding: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  padding: 5px 20px;
+}
+
+footer a:hover {
+  background-color: rgb(107, 168, 67);
+  color: white;
+  text-decoration: none;
+}
+
+/* Common .card style */
+.card {
+  display: block;
+  position: relative; /* By default, cards are relative */
+  height: auto;
+  z-index: 100;
+  max-width: 450px;
+}
+
+/* Specific cards that float */
+#pnl-contact {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%); /* center horizontally */
+}
+
+#pnl-about {
+  position: absolute;
+  right: 50%;
+  bottom: 50px;
+  transform: translateX(50%); /* optional, depending on your need */
+}
+
+#pnl-basemap {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  right: 5px;
+  top: 70px; /* under navbar */
+}
+
+#pnl-service {
+  position: absolute;
+  top: 70px; /* under navbar */
+  right: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 1050; /* higher priority */
+}
+
+#pnl-search {
+  position: absolute;
+  top: 70px; /* under navbar */
+  right: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 1050; /* higher priority */
+}
+#pnl_route {
+  position: absolute;
+  top: 70px; /* under navbar */
+  right: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 1050; /* higher priority */
+}
+
+#pnl-closest {
+  position: absolute;
+  top: 70px; /* under navbar */
+  right: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 1050; /* higher priority */
+}
+
+.card button[type="button"] {
+  background-color: rgb(107, 168, 67);
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+/* .card button[type="button"]:hover {
+  background-color: rgb(95, 150, 60);
+} */
+
+.card .card-header {
+  background-color: rgb(107, 168, 67);
+  color: white;
+}
+
+.close {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fffbfb;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: bold;
+  cursor: pointer;
+}
